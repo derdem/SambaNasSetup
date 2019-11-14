@@ -15,7 +15,7 @@ else
  sudo adduser --system shareuser
 fi
 
-## check if 
+## check if shared folder exists
 if [ ! -d "/home/pi/shared" ] 
 then
  echo "create shared folder"
